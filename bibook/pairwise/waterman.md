@@ -57,7 +57,7 @@ We start by filling in the borders of the matrix using Equation {eq}`sw-init`, a
 :align: left
 :width: 50%
 
-Initialization of the dynamic programming matrix, using using Equation {eq}`sw-init`. For Smith-Waterman this equates to setting the elements of the first row and column to 0.
+Initialization of the dynamic programming matrix, using Equation {eq}`sw-init`. For Smith-Waterman this equates to setting the elements of the first row and column to 0.
 ```
 
 We then recusively fill in the other elements of the matrix in a row wise manner using Equation {eq}`sw-recursion`, as shown in {numref}`fig-sw-fill`.
