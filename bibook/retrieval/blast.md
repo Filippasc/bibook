@@ -78,7 +78,7 @@ This combined approach gives an overview of BLAST, highlighting its key features
 BLAST assesses the statistical significance of alignments using the Gumbel extreme value distribution (EVD) model. This model estimates the probability of an alignment score being due to chance. An e-value (expect value) is a statistical measure used in BLAST to assess the significance of an alignment:
 
 - **Definition**: The e-value represents the number of alignments expected to occur by chance in a database of a given size.
-- **Interpretation**: Lower e-values indicate more significant alignments. For example, an e-value of 0.01 suggests that this alignment quality would be obtained by chance 1 times out of hundred with the a query sequence of the same length of sequence and database size.
+- **Interpretation**: Lower e-values indicate more significant alignments. For example, an e-value of 0.01 suggests that this alignment quality would be obtained by chance 1 times out of hundred with then a query sequence of the same length of sequence and database size.
 
 The e-values in BLAST searches provide a direct indication of alignment quality:
 
